@@ -1,0 +1,157 @@
+@media only screen and (max-width: 768px),
+screen and (orientation: portrait) {
+
+    html,
+    body,
+    .webpage {
+        height: 100vh;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 11px;
+
+    }
+
+    header nav {
+        height: 48px;
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
+    nav .left-nav {
+        width: auto;
+        gap: 10px;
+        margin: 0;
+    }
+
+    nav .right-nav {
+        width: auto;
+        gap: 8px;
+        margin: 0;
+    }
+
+    header nav .left-nav li a,
+    header nav .right-nav li a {
+        font-size: 11px !important;
+
+        white-space: nowrap;
+    }
+
+    header nav .right-nav li img.pfp {
+        width: 28px !important;
+        height: 28px !important;
+    }
+
+    main {
+        height: auto;
+        margin: 15px 0 10px 0;
+    }
+
+    main img {
+        width: 120px !important;
+
+        border: none !important;
+    }
+
+    section {
+        height: auto;
+        padding: 0 12px;
+    }
+
+    section .search-box {
+        width: 100%;
+        height: 42px;
+        border-radius: 21px;
+        padding: 0 10px;
+        gap: 4px;
+        box-sizing: border-box;
+        background-color: #303134;
+    }
+
+    .text-box textarea {
+        font-size: 13px !important;
+    }
+
+    .ai-box {
+        padding: 3px 6px;
+        border-radius: 12px;
+        white-space: nowrap;
+    }
+
+    .ai-box p {
+        font-size: 10px !important;
+    }
+
+    .shortcut {
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .shortcut .shbox {
+        width: 65px;
+        height: 65px;
+    }
+
+    .shortcut .shbox p {
+        font-size: 10px !important;
+    }
+
+    .languages {
+        height: auto;
+        padding: 8px 12px;
+        margin-bottom: 5px;
+    }
+
+    .languages .lang {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px 8px;
+        font-size: 10px !important;
+        line-height: 18px;
+    }
+
+    /* 7. Footer Text */
+    footer {
+        position: relative;
+        height: auto;
+        background-color: #171717;
+    }
+
+    footer .f-top {
+        height: 32px;
+        padding: 0 12px;
+        border-bottom: 1px solid #3c4043;
+    }
+
+    footer .f-top .para p {
+        width: auto;
+        font-size: 11px !important;
+        color: #9aa0a6;
+    }
+
+    footer .f-bottom {
+        height: auto;
+        padding: 10px 12px;
+    }
+
+    footer .inside-f-bottom {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    footer .inside-f-bottom .l,
+    footer .inside-f-bottom .r {
+        width: 100%;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    footer .inside-f-bottom .l a,
+    footer .inside-f-bottom .r a {
+        font-size: 10px !important;
+        color: #9aa0a6;
+    }
+}
